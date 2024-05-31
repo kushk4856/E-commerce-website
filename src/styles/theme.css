@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .heading-1 {
+        @apply font-popins text-[5.5vw] text-neutral-900 font-medium leading-[84px];
+    }
+
+    .heading-2 {
+        @apply font-popins text-[5vw] text-neutral-900 font-medium leading-[76px];
+    }
+
+    .heading-3 {
+        @apply font-popins text-[3.75vw] text-neutral-900 font-medium leading-[58px];
+    }
+
+    .heading-4 {
+        @apply font-popins text-[2.77vw] text-neutral-900 font-medium leading-[44px];
+    }
+
+    .heading-5 {
+        @apply font-popins text-[2.361vw] text-neutral-900 font-medium leading-[38px];
+    }
+
+    .heading-6 {
+        @apply font-popins text-[1.94vw] text-neutral-900 font-medium leading-[34px];
+    }
+
+    .heading-7 {
+        @apply font-popins text-[1.38vw] text-neutral-900 font-medium leading-7;
+    }
+
+    .text-regular-26 {
+        @apply text-[26px] font-normal font-inter leading-10;
+    }
+
+    .text-semi-26 {
+        @apply text-[26px] font-semibold font-inter leading-10;
+    }
+
+    .text-bold-26 {
+        @apply text-[26px] font-bold font-inter leading-10;
+    }
+
+    .text-regular-22 {
+        @apply text-[22px] font-normal font-inter leading-[34px];
+    }
+
+    .text-semi-22 {
+        @apply text-[22px] font-semibold font-inter leading-[34px];
+    }
+
+    .text-semi-22 {
+        @apply text-[22px] font-bold font-inter leading-[34px];
+    }
+
+    .text-regular-18 {
+        @apply text-lg font-normal font-inter leading-[30px];
+    }
+
+    .text-semi-18 {
+        @apply text-lg font-semibold font-inter leading-[30px];
+    }
+
+    .text-bold-18 {
+        @apply text-lg font-bold font-inter leading-[30px];
+    }
+
+    .body-1 {
+        @apply text-xl font-normal font-inter leading-loose;
+    }
+
+    .body-1-semi {
+        @apply text-xl font-semibold font-inter leading-loose;
+    }
+
+    .body-1-bold {
+        @apply text-xl font-bold font-inter leading-loose;
+    }
+
+    .body-2 {
+        @apply text-base font-normal font-inter leading-relaxed;
+    }
+
+    .body-2-semi {
+        @apply text-base font-semibold font-inter leading-relaxed;
+    }
+
+    .body-2-bold {
+        @apply text-base font-bold font-inter leading-relaxed;
+    }
+
+    .caption-1 {
+        @apply text-sm font-normal font-inter leading-snug;
+    }
+
+    .caption-1-semi {
+        @apply text-sm font-semibold font-inter leading-snug;
+    }
+
+    .caption-1-bold {
+        @apply text-sm font-bold font-inter leading-snug;
+    }
+
+    .caption-2 {
+        @apply text-xs font-normal font-inter leading-tight;
+    }
+
+    .caption-2-semi {
+        @apply text-xs font-semibold font-inter leading-tight;
+    }
+
+    .caption-2-bold {
+        @apply text-xs font-bold font-inter leading-tight;
+    }
+
+    .button-xl {
+        @apply text-[26px] font-medium font-inter leading-[38px]
+    }
+
+    .button-l {
+        @apply text-[22px] font-medium font-inter leading-[34px]
+    }
+
+    .button-md {
+        @apply text-lg font-medium font-inter leading-loose
+    }
+
+    .button-sm {
+        @apply text-base font-medium font-inter leading-7
+    }
+
+    .button-xs {
+        @apply text-sm font-medium font-inter leading-normal
+    }
+}

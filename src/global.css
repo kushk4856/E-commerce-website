@@ -1,0 +1,44 @@
+@import url(./styles/theme.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --neutral-01100: #FEFEFE;
+        --neutral-02100: #F3F5F7;
+        --neutral-03100: #E8ECEF;
+        --neutral-04100: #6C7275;
+        --neutral-05100: #343839;
+        --neutral-06100: #232627;
+        --neutral-07100: #141718;
+
+    }
+}
+
+
+
+
+
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+
+    .flex-between {
+        @apply flex justify-between items-center;
+    }
+
+    .flex-start {
+        @apply flex justify-start items-center;
+    }
+
+    .smooth-transition {
+        @apply transition-all duration-300
+    }
+
+    .badge-shadow {
+        box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.12);
+    }
+}
